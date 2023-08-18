@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #3b2c2c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.chart{
+    padding: 1rem;
+    margin: 0.5rem; /* เพิ่ม margin เพื่อทำให้แผนภูมิเข้าใกล้กัน */
+    border: 1px solid #f49131;
+    border-radius: 1rem;
+    background: #000000;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0);
+}
+
+.pt{
+    padding: 1rem;
+    margin: 0.5rem; /* เพิ่ม margin เพื่อทำให้แผนภูมิเข้าใกล้กัน */
+    border: 1px solid #f49131;
+    border-radius: 1rem;
+    background: #000000;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0);
+    color: #f49131;
+    text-align: center;
+}
+
